@@ -1,0 +1,225 @@
+body{
+    height: auto;
+    background-color: #e1fffb;
+}
+header{
+    background-color: #0adfc3;
+    height: 100px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #ebfffc;
+    font-size: 40px;
+}
+nav{
+    background-color: #05659c;
+    height: 200px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main{
+    background-color: #1bebcf;
+    height: 400px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+section{
+    height: 120px;
+    width: 185px;
+    border-style: double;
+    border-color: #0ea7c2;
+    border-radius: 15px;
+    border-width: 8px;
+    display: flex;
+}
+a{
+    color: #0adfc3;
+   align-content: center;
+   margin-left: 5px;
+   text-align: center;
+   font-size: 17px;
+   text-decoration: none;
+}
+a:hover{
+    color: #06135c;
+    font-size: 19px;
+    font-weight: bold;
+}
+img{
+    border-color: #0ea7c2;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 8px;
+
+}
+article{
+    background-color: #a8fff3;
+    height: 270px;
+    width: 1010px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 20px;
+}
+footer{
+    background-color: #0e9ab3;
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    margin-bottom: 40px;
+}
+h2{
+    text-align: center;
+    margin-right: 32px;
+}
+li{
+    text-align: center;
+    margin-right: 32px;
+    font-size: 18px;
+}
+#jk{
+    color: #06135c;
+    text-align: center;
+    font-size: 35px;
+}
+h3{
+    border-style: double;
+    border-color: #06135c;
+    border-radius: 15px;
+    border-width: 8px;
+    width: 450px;
+}
+#ok{
+    color: #06135c;
+    font-size: 30px;
+}
+#ok:hover{
+    color: #0676b8;
+}
+@media screen and (min-width: 0px) and (max-width: 580px) {
+    body{
+        height: auto;
+        background-color: #e1fffb;
+    }
+    header{
+        background-color: #0adfc3;
+        height: 50px;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        color: #ebfffc;
+        font-size: 20px;
+    }
+    nav{
+        background-color: #05659c;
+        height: 170px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    main{
+        background-color: #1bebcf;
+        height: 300px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    section{
+        height: 58px;
+        width: 120px;
+        border-style: double;
+        border-color: #0ea7c2;
+        border-radius: 10px;
+        border-width: 4px;
+        display: flex;
+    }
+    a{
+        color: #0adfc3;
+       align-content: center;
+       margin-left: 6px;
+       text-align: center;
+       font-size: 10px;
+       text-decoration: none;
+    }
+    a:hover{
+        color: #06135c;
+        font-size: 11px;
+        font-weight: bold;
+    }
+    img{
+        border-color: #0ea7c2;
+        border-style: double;
+        border-radius: 5px;
+        border-width: 4px;
+        height: 82px;
+        width: 140px;
+    
+    }
+    article{
+        background-color: #a8fff3;
+        height: 230px;
+        width: 470px;
+        text-align: center;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    footer{
+        background-color: #0e9ab3;
+        height: 90px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    ul{
+        margin-bottom: 25px;
+    }
+    h2{
+        text-align: center;
+        margin-right: 24px;
+        font-size: 15px;
+    }
+    li{
+        text-align: center;
+        margin-right: 24px;
+        font-size: 12px;
+    }
+    #jk{
+        color: #06135c;
+        text-align: center;
+        font-size: 20px;
+    }
+    h3{
+        border-style: double;
+        border-color: #06135c;
+        border-radius: 10px;
+        border-width: 4px;
+        width: 215px;
+    }
+    #ok{
+        color: #06135c;
+        font-size: 15px;
+    }
+    #ok:hover{
+        color: #0676b8;
+    }
+}
